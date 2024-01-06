@@ -4,7 +4,6 @@ from keras.preprocessing.image import img_to_array, load_img
 import numpy as np
 
 st.title("Banana Detection App")
-model = load_model('cnn_model.h5')
 
 # Definisikan label kelas yang sesuai dengan model Anda
 class_labels = ["matang", "mentah", "terlalu matang"]  # Ganti dengan label kelas yang sesuai
